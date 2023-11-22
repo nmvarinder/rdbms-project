@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap');
 
 
 *{
@@ -39,12 +39,14 @@ body{
   left: 5%;
   color: black;
   background-color: yellow;
-  width: 60px;
-  font-size: 30px;
+  width: 80px;
+  font-size: 10px;
   border-radius: 5px;
+  font-weight: 400;
   border: none;
   cursor: pointer;
   box-shadow: 1px 2px 10px rgba(0, 0, 0,.2);
+  padding: 10px 30px;
 }
 .navi-to-back:hover{
   background-color: orange;
