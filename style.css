@@ -1,0 +1,147 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;900&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+}
+
+*::selection{
+  color: black;
+  background-color: orange;
+}
+
+body{
+  font-family:'Poppins', sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+
+.navigation {
+  position: fixed;
+  top: 6%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  background-color: #eb5160;
+  width: 150px;
+  height: 60px;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  padding: 20px;
+  z-index: 3;
+}
+
+.navigation__button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.navigation__button:hover {
+  transform: translateY(-1px);
+  background-color: white;
+  color: black;
+}
+
+.navigation__icon {
+  font-size: 20px;
+}
+
+
+/* header image */
+.header-image {
+  background-image: url("./assets/header-Image1.webp");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* header btn */
+
+.btn {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  transition: all .5s ease;
+  color: #fff;
+  border: 3px solid white;
+  text-align: center;
+  line-height: 1;
+  font-size: 20px;
+  background-color : transparent;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.btn:hover {
+  color: #001F3F;
+  background-color: #fff;
+}
+
+
+/* about us page */
+.about-us--bgcolor{
+  background-color: black;
+  
+}
+
+
+#about-us .title {
+  font-size: 20px;
+  padding: 80px;
+  font-weight: 400;
+  text-align: center;
+  outline: 1px solid rgba(255, 255, 0,.2);
+  outline-offset: -80px;
+  text-transform: capitalize;
+}
+
+
+.about-us__columns {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.about-us__columns .column {
+  text-align:  center;
+	flex: 1;
+	margin: 2px;
+	padding: 10px;
+	&:first-child { margin-left: 0; }
+	&:last-child { margin-right: 0; }
+}
+
+.about-us__columns .column img {
+  clip-path: circle(50%);
+  width: 300px;
+}
+
+.column__nametag {
+  font-weight: 400;
+}
+
+footer{
+  line-height: 50px;
+  text-align: center;
+  background-color: rgb(38, 28, 53);
+  text-transform: capitalize;
+}

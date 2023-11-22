@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn with Us</title>
+  <link rel="stylesheet" href="./learn-style.css">
+</head>
+<body>
+
+ 
+
+  <!-- navigation to back home -->
+  <a href="./index.html">
+  <button class="navi-to-back">&#8592;</button>
+  </a>
+
+  <main>
+  <!-- cards of learners -->
+  <div class="container">
+    
+    <div class="card">
+      <div class="content">
+        <h2>01</h2>
+        <h3>basic</h3>
+        <p>
+          This is for absolute beginners.
+        </p>
+        <a href="#">Start Journey</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="content">
+        <h2>02</h2>
+        <h3>Intermediate</h3>
+        <p>
+          Deep dive Knowledge and Practice
+        </p>
+        <a href="#">Become Expert</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="content">
+        <h2>03</h2>
+        <h3>Advance</h3>
+        <p>
+          Unlock the power and Become unbreakable
+        </p>
+        <a href="#">New Era</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+  <!-- vanilla tild js file -->
+  <script src="./vanilla-tilt.js"></script>
+
+  <!-- configuration of vanilla file js -->
+  <script type="text/javascript">
+    VanillaTilt.init(document.querySelectorAll(".card"), {
+      max: 25,
+      speed: 400,
+      glare: true,
+      "max-glare": 1,
+    });
+    </script>
+</body>
+</html>
