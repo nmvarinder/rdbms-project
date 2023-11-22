@@ -14,23 +14,19 @@
 }
 
 body{
+  text-transform: uppercase;
+  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   background: #161623;
   font-family: 'Poppins', sans-serif;
-  /* background-image: url("./assets/front-look-girl.webp"); */
-}
-
-body{
   background-image: url("./assets/front-look-girl.webp");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
 }
-
 
 .navi-to-back {
   z-index: 3;
@@ -106,17 +102,14 @@ body{
 }
 
 .container .card .content h3 {
-  text-transform: uppercase;
   font-size: 1.8em;
   /* color: white; */
-  color: white;
   z-index: 1;
   font-weight: 700;
 }
 
 .container .card .content p {
   font-size: 1em;
-  color: #fff;
   font-weight: 200;
 }
 
